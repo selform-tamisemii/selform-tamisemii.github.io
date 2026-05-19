@@ -1,0 +1,295 @@
+body,html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Roboto,sans-serif
+}
+
+@media only screen and (min-width : 320px) {
+    .dataTables_wrapper .dataTables_filter input {
+        height:50px;
+        border-radius: 20px;
+        border-color: #337ab7;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 350px;
+        font-size: 9px
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .header h4 {
+        font-size: 13px
+    }
+
+    .header h5 {
+        font-size: 13px
+    }
+
+    table {
+        font-size: 10px
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .dataTables_wrapper .dataTables_filter input {
+        height:50px;
+        border-radius: 20px;
+        border-color: #337ab7;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 350px;
+        font-size: 9px
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .header h4 {
+        font-size: 13px
+    }
+
+    .header h5 {
+        font-size: 13px
+    }
+
+    table {
+        font-size: 10px
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .dataTables_wrapper .dataTables_filter input {
+        height:50px;
+        border-radius: 20px;
+        border-color: #337ab7;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 350px;
+        font-size: 9px
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .header h4 {
+        font-size: 13px
+    }
+
+    .header h5 {
+        font-size: 13px
+    }
+
+    table {
+        font-size: 12px
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .dataTables_wrapper .dataTables_filter input {
+        height:50px;
+        border-radius: 20px;
+        border-color: #337ab7;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 700px;
+        font-size: 13px
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .header h4 {
+        font-size: 18px
+    }
+
+    .header h5 {
+        font-size: 18px
+    }
+
+    table {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .dataTables_wrapper .dataTables_filter input {
+        height:50px;
+        border-radius: 20px;
+        border-color: #337ab7;
+        text-align: center;
+        font-weight: 100;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 700px;
+        font-size: 13px
+    }
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+
+    .header h4 {
+        font-size: 18px
+    }
+
+    .header h5 {
+        font-size: 18px
+    }
+
+    table {
+        font-size: 14px
+    }
+}
+
+.header {
+    background-color: #337ab7;
+    color: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    width: 100%!important
+}
+
+.header h4,h5 {
+    font-weight: 400
+}
+
+.logo-img {
+    width: 60px
+}
+
+.footer {
+    background-color: #337ab7;
+    color: #fff;
+    margin-top: 30px
+}
+
+#schools-table input {
+    height: 50px;
+    border-radius: 20px;
+    border-color: #ddd!important
+}
+
+#students-table input {
+    height: 50px;
+    border-radius: 20px;
+    border-color: #ddd!important
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: none!important;
+    text-align: center!important
+}
+
+th {
+    background-color: #337ab7;
+    color: #fff
+}
+
+table.dataTable tfoot th,table.dataTable thead th {
+    font-weight: 300
+}
+
+td,th {
+    border: 1px solid #337ab7;
+    text-align: left;
+    padding: 8px
+}
+
+tr:nth-child(even) {
+    background-color: #ddd
+}
+
+.clickable-row {
+    cursor: pointer
+}
+
+.clickable-row:hover {
+    color: #337ab7;
+    font-weight: 700
+}
+
+.school-desc-table {
+    width: 100%
+}
+
+table {
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 100%
+}
+
+table .absorbing-column {
+    width: 80%
+}
+
+table.school-desc-table td {
+    width: auto!important
+}
+
+table.school-desc-table tr:nth-child(odd) {
+    background-color: #efefef
+}
+
+table.school-desc-table tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.lib-panel {
+    margin-bottom: 20Px
+}
+
+.lib-panel .col-md-6,.lib-panel .row {
+    padding: 0;
+    background-color: #fff
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 5px
+}
+
+.lib-header-title {
+    border-bottom: 2px solid #337ab7;
+    width: fit-content
+}
+
+.lib-panel .lib-row-bottom.lib-header-bottom {
+    background-color: #fff;
+    font-size: 13px;
+    padding-top: 0;
+    padding-bottom: 20px
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+}
+
+.no-padding {
+    padding: 0
+}
